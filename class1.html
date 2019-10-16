@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lng="en">
+    <head>
+            <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+        <style>
+            *{
+                scroll-behavior: smooth;
+            }
+            a{text-decoration: none;}
+        body {
+            color: black;
+            font-family: sans-serif;
+            margin: 2rem;
+    
+        }
+        h1{
+            font-size: 3rem;
+            font-weight: 200;
+        }
+        h2{
+            color: red;
+            text-align: center;
+        }
+        .larger-font{
+            font-size: 2rem;
+        }
+
+        header{
+            display: flex;
+            justify-content: space-between;
+            margin: 0 2rem;
+        }
+
+        li{
+            list-style-type: none;
+            padding-left:  2rem;
+            padding-right: 0.5rem;
+            font-size: 1.2rem;
+        }
+        ul{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 2.5rem;
+        }
+        article{
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .nature-img{
+            width: 90vw;
+            height: 55vw;
+            margin-right: 2rem;
+            margin-left: 2rem;;
+            margin-bottom: 2rem;
+            margin-top: 0rem;
+        }
+        .main-img{
+            width: 10vw;
+            height: 10vw;
+            
+        }
+        
+        .container{
+           
+           margin-left: 2rem;
+           margin-right: 0.5rem;
+           text-align: center;
+
+        }
+        .paragraph{
+            text-align: justify;
+        }
+
+        footer{
+            text-align: center;
+            padding: 0.2rem;
+            font-size: 1.2rem;
+            color: white;
+            background-color: black;
+            font-weight: 100 ;
+            letter-spacing: 0.1rem;
+        }
+
+        a:link,a:visited{
+            color: black;
+        }
+        a:hover{
+            color:red;
+        }
+
+        a:active{
+            color:black;
+        }
+            </style>
+        <title>MyHtmlFile</title>
+    </head>
+<body>
+   <!-- 
+     -->
+
+    <header>
+        <h1>DEV101</h1>
+        <nav>
+            <ul>
+                <li><a href="#article">HTML</a></li>
+                <li><a href="#article">JAVASCRIPT</a></li>
+                <li><a href="#article">CSS</a></li>
+            </ul>
+        </nav>     
+
+     
+    </header>
+
+    <main>
+            <img class ="nature-img" src= "./nature.JPG" alt="background image">
+    </main>
+
+    <article id= "article">
+        <div class="container">
+            <img class ="main-img" src="./html.PNG" alt="html logo">
+             <h2> HTML </h2>
+             <p class ="paragraph">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis nobis aliquam odio omnis quasi temporibus eligendi nostrum ut accusantium eaque?
+                     </p>
+                
+        </div>
+        <div class="container">
+            <img class ="main-img" src="./css.PNG" alt="css logo">
+                <h2> CSS </h2>
+                     <p class ="paragraph">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis nobis aliquam odio omnis quasi temporibus eligendi nostrum ut accusantium eaque?
+                    
+                    </p>
+                
+        </div>
+        <div class="container">
+            <img class ="main-img" src="./js.PNG" alt="js logo">
+                <h2> JavaScript </h2>
+                <p class ="paragraph">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis nobis aliquam odio omnis quasi temporibus eligendi nostrum ut accusantium eaque?
+                    
+                            </p>
+                
+        </div>
+      
+
+    </article>
+<footer>
+    <h3>&copyPepcoding 2K19</h3>
+</footer>
+
+
+</body>
+
+</html>

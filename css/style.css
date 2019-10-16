@@ -1,0 +1,289 @@
+
+*{ 
+   box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    color: white;
+    margin:0;
+    padding: 0;
+}
+header{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.45 ),rgba(0, 0, 0, 0.45)),
+     url(./backgroundimage.JPG);
+    height: 100vh;
+    background-size: 100%;
+    background-attachment: fixed;
+    
+}
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+    font-weight: 150;
+       
+}
+.nav{
+    text-decoration: none;
+    color:white;
+}
+a{
+    text-decoration: none;
+}
+
+li{ 
+    font-size: 1.2rem;
+    margin-right: 2.5rem;
+    padding-bottom: 0.5rem;
+    text-decoration:none;
+    border-bottom: 0.2rem solid transparent;
+
+}
+
+h1{
+
+   /* margin-top: 12rem;
+    text-align: center; */
+   
+    font-size: 3rem;
+    color: yellowgreen; 
+    font-weight: 300;
+    letter-spacing: 0.2rem ;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+li:hover{
+    border-bottom: 0.2rem solid brown;
+}
+
+.showcase{
+   
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+}
+.btns{
+    margin-top: 1rem;
+}
+
+.btn{
+    font-size: 1.5rem;
+    color: white;
+    margin-right: 1.5rem;
+    background-color: green;
+    display: inline-block;
+    padding: 0.7rem 0.5rem;
+    border-radius: 2rem;
+}
+
+.btn-empty{
+    color:green;
+    background-color: transparent;
+    border-width: 0.2rem;
+    border-style: solid;
+    border-color: green;
+    transition: transform 0.3s,color 0.3s, background-color 0.3s;
+}
+
+.btn-full{
+    border-width: 0.2rem;
+    border-style: solid;
+    border-color: green;
+    transition: transform 0.3s;
+}
+
+.btn-empty:hover{
+    transform: scale(1.2);
+    color:white;
+    background-color: green;
+}
+
+
+.btn-full:hover{
+    transform: scale(1.2);
+
+}
+h2{
+    text-transform: uppercase ;
+    padding-bottom: 1rem;
+}
+main{
+    margin: 3rem;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+h3{
+    text-transform: uppercase ;
+}
+
+.article{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+.underline::after {
+    display: block;
+    content: "";
+    height: 0.2rem;
+    width: 6rem;
+    margin-top: 2rem;
+    margin-left: 35rem;
+    background-color: green;
+
+}
+
+.container{
+           
+    margin-left: 2rem;
+    margin-right: 0.5rem;
+    text-align: left;
+    font-size: 1.2rem;
+  
+ }
+
+ .icons{
+     color: green;
+     margin-left: 3rem;
+    margin-right: 0.5rem; 
+    
+    font-size: 4rem;
+ }
+
+section{ 
+    background-color: grey;
+    color: black;
+
+    padding-top: 5rem;
+
+}
+
+.iphone{
+    width: 21%;
+    margin: 0 11%;
+  }
+
+.step-container {
+    display: flex;
+    
+  }
+
+  .howto-container {
+    display: flex;
+   
+  }
+
+  .step-container div {
+    color: #2ecc71;
+    /* padding: 1rem; */
+    height: 4rem;
+    width: 4rem;
+    border-color: #2ecc71;
+    text-align: center;
+    padding-top: 0.7rem;
+    border-radius: 50%;
+    /* boder-style: solid; */
+    border-style: solid;
+    font-size: 180%;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+  }
+  .step-container:first-child {
+    margin-top: 3rem;
+  }
+
+  .page4{
+      color: black;
+      background-color: white;
+  }
+ 
+  .city{
+    width: 15rem;
+    height: 10rem;
+  }
+
+  .cities{
+    display: flex;
+    justify-content: space-between;  
+  }
+.each-city{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: left;
+  font-size: 1rem;
+}
+.desc{
+    display: flex;
+    justify-content: left;  
+}
+
+.icon-small{
+    display: inline-block;
+    color: green;
+    padding-top: 1.25rem;
+    padding-right: 0.25rem;
+}
+
+.page5{
+    background-image: linear-gradient(rgba(49, 46, 46, 0.45),rgba(0, 0, 0, 0.45)),
+    url(./customer.jpg);
+    height: 100vh;
+    background-size: 100%;
+    background-attachment: fixed;
+        color: white;
+}
+
+.review{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: 6rem;
+    display: flex;
+    justify-content: space-around;  
+    font-style: italic;
+}
+
+.quotes::before {
+    display: block;
+    content: "\201C";
+    font-size: 400%;
+   
+}
+
+.quotes{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.rev-img{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-top: 0.5rem;
+    margin-right:0.5rem ;
+    border-radius: 2.5rem;
+}
+
+.details{
+    display: flex;
+    justify-content: left;  
+   
+
+}
+
+.forms{
+    
+}
+
+.design-buttons{
+    margin-top: 3rem;
+    margin-left: 5rem;;
+}
+
+
+
+  
